@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <title>Photo Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <ul class="menu">
+            <li class="links"><a href="#welcome">Home</a></li>
+            <li class="links"><a href="#grid">Grid view</a></li>
+            <li class="links"><a href="#work">Work</a></li>
+            <li class="links"><a href="#writings">Writings</a></li>
+            <li class="links"><a href="#contact">Contact</a></li>
+        </ul>
+    </center>
+    <section id="welcome" class="parallax-container">
+        <div class="parallax-inner">
+            <img src="photo%205.jpg" class="profile" />
+        </div>
+    </section>
+    <div class="container">
+
+        <section id="grid">
+            <h1>slide view</h1>
+            <div class="line"></div>
+            <img src="Photo%201.jpg">
+            <img src="Photo2.jpg">
+        </section>
+        <section id="Slide">
+            <h2>Grid view</h2>
+            <div id="myCarousel" class="carousel slide">
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <img src="Photo3.jpg" class="img-responsive">
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="item">
+        <center>
+            <div class="carousel-content">
+            </div>
+        </center>
+    </div>
+    <a class="left carousel-control" href="#myCarouse2" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarouse2" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+    </div>
+</body>
+
+</html>
